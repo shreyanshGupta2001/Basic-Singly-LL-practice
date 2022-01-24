@@ -5,10 +5,10 @@ using namespace std;
 struct Node
 {
     int data;
-    struct Node* next;
+    Node* next;
 };
 
-struct Node* head;
+Node* head;
 
 void insert(int x, int n)
 {
