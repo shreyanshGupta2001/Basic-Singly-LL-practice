@@ -35,7 +35,7 @@ void RevPrint(Node* p)
     if(p == NULL)
     return;
 
-    Print(p->next);
+    RevPrint(p->next);
     cout<<(p->data)<<" ";
     
 }
