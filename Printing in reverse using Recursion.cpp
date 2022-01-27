@@ -30,7 +30,7 @@ Node* Insert(Node* head, int x)
     return head;
 }
 
-void Print(Node* p)
+void RevPrint(Node* p)
 {
     if(p == NULL)
     return;
@@ -58,7 +58,7 @@ int main()
     }
 
     cout<<"\nElements of LL are: ";
-    Print(head);
+    RevPrint(head);
 
     return 0;
 }
