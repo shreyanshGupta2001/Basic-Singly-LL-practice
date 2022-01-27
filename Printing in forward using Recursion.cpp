@@ -56,7 +56,7 @@ int main()
         head = Insert(head,x);
     }
 
-    cout<<"\nEnter of LL are: ";
+    cout<<"\nElements of LL are: ";
     Print(head);
 
     return 0;
