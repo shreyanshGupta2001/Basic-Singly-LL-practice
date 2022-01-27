@@ -44,7 +44,7 @@ void print()
 
 int main()
 {
-    head == NULL;
+    head = NULL;
     insert(2);
     insert(10);
     insert(5);
